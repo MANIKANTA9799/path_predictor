@@ -1,0 +1,180 @@
+[
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "attrs": {
+                    "type": "user",
+                    "is_vulnerable": 0,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "attrs": {
+                    "type": "workstation",
+                    "is_vulnerable": 1,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 5.6
+                }
+            },
+            {
+                "id": 2,
+                "attrs": {
+                    "type": "server",
+                    "is_vulnerable": 0,
+                    "privilege": 2,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            },
+            {
+                "id": 3,
+                "attrs": {
+                    "type": "router",
+                    "is_vulnerable": 0,
+                    "privilege": 1,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "attrs": {
+                    "type": "user",
+                    "is_vulnerable": 0,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "attrs": {
+                    "type": "workstation",
+                    "is_vulnerable": 1,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 5.6
+                }
+            },
+            {
+                "id": 2,
+                "attrs": {
+                    "type": "server",
+                    "is_vulnerable": 0,
+                    "privilege": 2,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            },
+            {
+                "id": 3,
+                "attrs": {
+                    "type": "router",
+                    "is_vulnerable": 0,
+                    "privilege": 1,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "id": 0,
+                "attrs": {
+                    "type": "user",
+                    "is_vulnerable": 0,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "attrs": {
+                    "type": "workstation",
+                    "is_vulnerable": 1,
+                    "privilege": 0,
+                    "has_firewall": 0,
+                    "cvss": 5.6
+                }
+            },
+            {
+                "id": 2,
+                "attrs": {
+                    "type": "server",
+                    "is_vulnerable": 1,
+                    "privilege": 2,
+                    "has_firewall": 0,
+                    "cvss": 8.2
+                }
+            },
+            {
+                "id": 3,
+                "attrs": {
+                    "type": "router",
+                    "is_vulnerable": 0,
+                    "privilege": 1,
+                    "has_firewall": 0,
+                    "cvss": 0.0
+                }
+            }
+        ],
+        "edges": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    }
+]
