@@ -1,3 +1,4 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20Streamlit%20App-brightgreen?style=for-the-badge&logo=streamlit)](https://pathpredictor-fxtkpamtumsgz3n5nw7oaq.streamlit.app/)
 # GNN Attack Path Predictor
 
 A beginner-friendly **Graph Neural Network (GNN)** project that predicts potential **attack paths and vulnerable nodes in a computer network**.
@@ -332,3 +333,4 @@ Possible extensions include:
 This project was built as part of learning **Graph Neural Networks and their applications in cybersecurity** using PyTorch Geometric.
 
 It includes both **learning experiments and a complete working application**.
+
