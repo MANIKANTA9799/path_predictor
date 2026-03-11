@@ -1,5 +1,8 @@
 streamlit
+torch
+torch-geometric
 networkx
 numpy
 matplotlib
+scikit-learn
 pandas
