@@ -321,14 +321,11 @@ This project demonstrates several important machine learning concepts:
 Possible extensions include:
 
 * Using real cybersecurity datasets
-* Graph Attention Networks (GAT)
-* Temporal graph datasets
 * Integration with security monitoring tools
 * Large-scale enterprise network simulations
 
 ---
 
-# Author
 
 This project was built as part of learning **Graph Neural Networks and their applications in cybersecurity** using PyTorch Geometric.
 
